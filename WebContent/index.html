@@ -1,0 +1,179 @@
+<!-- Rishab Banskota
+ 	Assignment 1
+ 	Survey Form-- The main form containing the input fields for the users to type.
+   -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="styles.css">
+
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+      <strong>      
+         <h1 class ="header" align="center"> Survey Form</h1>         
+      </strong>   
+</div>
+
+<!-- main content -->
+<div class="content" role="main" id="home">
+   <hr />
+   <h2><strong>Assignment 1</strong></h2> 
+   <p><strong>Please fill out the form below and thank you so much for participating.</strong></p>
+   <form id="form" autocomplete="on">
+      <table style="width: 100%">
+         <tbody>
+            <tr>
+               <th style="width:20%">
+                  <label>First Name:
+                  <input type="text" name="name" autofocus="" required>
+                  <span class="error"> *</span>
+                  </label><br>
+               </th>
+               
+                 <th style="width:20%">
+                  <label>Last Name:
+                  <input type="text" name="name" autofocus="" required>
+                  <span class="error"> *</span>
+                  </label><br>
+               </th>            
+                      
+               <th>
+                  <label>Phone Number:
+                  <input type="tel" name="phone" maxlength="13" placeholder="must be 10 digits" required>
+                  <span class="error"> *</span><br>
+                  </label><br>
+               </th>          
+            </tr>
+            <tr>          
+               <th>
+                  <label>Street Address:
+                  <input type="text" name="address" size="30" required>
+                  <span class="error"> *</span><br>
+                  </label>
+               </th>
+                <th>
+                  <label>City:
+                  <input type="text" name="city" required>
+                  <span class="error"> *</span><br>
+                  </label>
+               </th>
+                    
+               <th>
+                  <label>State:
+                  <input type="text" name="state" required>
+                  <span class="error"> *</span><br>
+                  </label>
+               </th>               
+            </tr>
+            <tr>
+               <th>
+                  <label>Zip Code:
+                  <input type="text" name="zipcode" maxlength="5"
+                     placeholder="5 digit zip-code" required>
+                  <span id="zip_span" class="error"></span>
+                  <span class="error"> *</span><br>
+                  </label><br>
+               </th>         
+           
+               <th>
+                  <label>Email Address:
+                  <input type="Email"  name="email" placeholder="example@yahoo.com" required>
+                  <span class="error"> *</span><br>
+                  </label><br><br>
+               </th>
+            </tr>
+            <tr>           
+               <th>
+                  <label>Date of survey:
+                  <input type="date" name="date" pattern="MM/DD/YYYY" placeholder="MM/DD/YYYY" required>
+                  <span class="error"> *</span><br>
+                  </label>
+               </th>
+            </tr>
+            <tr>
+               <th>
+                  <br>
+                  <strong>What did you like the most about the campus?</strong><br>
+                  <label>Students
+                  <input type="checkbox" name="CHECKBOX"    value="Students">
+                  </label><br> 
+                  <label>Location
+                  <input type="checkbox" name="CHECKBOX"   value="Location">
+                  </label><br>
+                  <label>Campus
+                  <input type="checkbox" name="CHECKBOX"   value="Campus">
+                  </label><br>
+                  <label>Atmosphere
+                  <input type="checkbox" name="CHECKBOX"    value="Atmosphere">
+                  </label><br>
+                  <label>Dorm Rooms
+                  <input  type="checkbox" name="CHECKBOX"   value="Dorm Rooms">
+                  </label><br>
+                  <label>Sports
+                  <input type="checkbox" name="CHECKBOX"    value="Sports">
+                  </label><br> 
+               </th>
+            </tr>
+            <tr>
+               <th>
+                  <!-- Radio Buttons for options -->
+                  <br><strong>What interested you to visit the university?</strong>
+                  <br>
+                  <label>Friends
+                  <input  type="radio" name="RADIO"  value="Friends">
+                  </label><br>
+                  <label>Television
+                  <input type="radio" name="RADIO"   value="Television">
+                  </label><br>
+                  <label>Internet
+                  <input type="radio" name="RADIO"  value="Internet">
+                  </label><br>
+                  <label>Other
+                  <input type="radio" name="RADIO"  value="Other">
+                  </label><br>
+               </th>
+            </tr>
+            <tr>
+               <th>
+                  <p>
+                     <strong>Likelihood of you recommending this school to other prospective students.</strong><br>
+                     <select name="SELECTION">
+                        <option selected="selected"  >Very Likely</option>
+                        <option>Likely</option>
+                        <option>Unlikely</option>
+                     </select>
+                  </p>
+               </th>
+            </tr>
+            <tr>
+               <th>
+                  <!-- Additional comments free text field area -->
+                  <p>
+                     <label>Additional Comments:<br />
+                     <textarea name="comments" rows="4" cols="36">
+                     </textarea>
+                     </label>
+                  </p>
+               </th>
+            </tr>
+            
+            <tr>
+               <th>
+                  <br><label>Raffle</label><br>
+                  <input type="text" name="raffle" id="input_data" placeholder="Please enter at least 10 numbers separated by a ',' " size="50">            
+               </th>
+               <br>
+            </tr>
+            <br>        
+         </tbody>
+      </table>      
+      <br>
+          <button class="button" type="submit">Submit</button>          
+          <button class="button" type="reset">Reset</button>
+      <br>
+   </form>
+</div>
+<br>
+
+<!-- End of file -->

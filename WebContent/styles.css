@@ -1,0 +1,43 @@
+/* Rishab Banskota  */
+/*CSS for the main page  */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+    }
+
+h1{
+	color:#0000FF	
+}
+.header{
+	border: 5px solid brown;
+	width:300px;
+	align:center
+}
+label{
+	color:6927CB
+}
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    padding-left: 10px;
+    padding-right:35px;
+    padding-top:10px;
+    background-color: thistle;
+}
+
+table {
+	padding-left: 20px;
+  	border: 2px solid purple;
+  	border-radius: 4px;
+  	padding-right:45px;
+}
+th {
+text-align: left;
+}
