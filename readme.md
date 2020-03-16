@@ -1,5 +1,5 @@
-Name:Rishab Banskota
-G01047184
+Name: Amish Papneja
+Group: CodyGang
 
 Direct URL to the running instance of EC2:
 http://ec2-54-90-143-176.compute-1.amazonaws.com/swe645-assignment1/
