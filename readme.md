@@ -1,6 +1,6 @@
 Name: Amish Papneja
 Group: CodyGang 
-Hey this is a test
+Hey this is a test 2
 
 Direct URL to the running instance of EC2:
 http://ec2-54-90-143-176.compute-1.amazonaws.com/swe645-assignment1/
